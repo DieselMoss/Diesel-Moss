@@ -1,0 +1,28 @@
+/* dm css file */
+
+.jumbotron{
+padding: 30px;
+margin-bottom: 30px;
+color: inherit;
+background-image: url('dmtitan.png');
+background-position: center;
+background-repeat: no-repeat;
+opacity: 0.75;
+}
+
+.jumbotron h1,
+.jumbotron .h1{
+color: lawngreen;
+text-shadow: 1px 0 #444;
+}
+
+.jumbotron img{
+border-radius: 33px;
+opacity: 0.875;
+}
+.jumbotron p{
+margin-bottom: 15px;
+font-size: 20px;
+font-weight: 200;
+color: lawngreen;
+}

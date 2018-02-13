@@ -1,0 +1,21 @@
+<!DOCTYPE html><html><head><script src="dm.js"></script><title>DieselMoss</title>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><script src="https://cdnjs.cloudflare.com/ajax/libs/aframe/0.7.1/aframe.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.cs"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><link rel="stylesheet" href="dm.css">
+</head><style>body, h1,h2,h3,h4,h5,h6 {font-family: "Times New Roman", Times, serif}.w3-row-padding img {margin-bottom: 12px}.w3-sidebar {width: 120px;background: #222;}#main {margin-left: 120px}@media only screen and (max-width: 600px) {#main {margin-left: 0}}</style>
+<body class="w3-black"><div class="w3-padding-sm" id="main"><div class="jumbotron"><header class="w3-container w3-padding-32 w3-center " id="dm"><h1 class="w3-jumbo"><span class="w3-hide-small">Diesel</span> Moss</h1><img src="dmlogo.png" alt="" class="w3-image" width="92" height="110" class="w3-border-radius"></header></div></div>
+<div class="w3-content w3-justify w3-padding-40" id="dm"><h2 class="w3-text-green" style="text-shadow:1px 1px 0 #444"><b>Startup Incubator</b></h2></div><div class="container">
+<a-scene>
+<a-plane position="0 0 -4" opacity="0.9" rotation="-90 0 0" width="15" height="15" color="black"></a-plane><a-sky color="black"></a-sky>
+<a-entity scale="2 1 2"  geometry="primitive: dodecahedron" position="0 13 -20" material="color: indigo; opacity:0.9; roughness: 0.5; sphericalEnvMap: #sky;">
+<a-animation easing="linear" attribute="rotation" dur="2500" to="0 0 360" repeat="indefinite"></a-animation></a-entity>
+<a-entity scale="2 1 2" geometry="primitive: octahedron" position="10 14 -20" material="color:chartreuse; opacity:0.75; roughness: 0.75; sphericalEnvMap: #sky;">
+<a-animation easing="linear" attribute="rotation" dur="4300" to="0 0 360" repeat="indefinite"></a-animation></a-entity>
+<a-entity scale="2 1 2"  geometry="primitive: dodecahedron" position="8 13 -20" material="color: orangered; opacity:0.9; roughness: 0.5; sphericalEnvMap: #sky;">
+<a-animation easing="linear" attribute="rotation" dur="2500" to="0 0 360" repeat="indefinite"></a-animation></a-entity>
+<a-entity scale="2 1 2" geometry="primitive: octahedron" position="6 14 -20" material="color: deepskyblue; opacity:0.75; roughness: 0.75; sphericalEnvMap: #sky;">
+<a-animation easing="linear" attribute="rotation" dur="4300" to="0 0 360" repeat="indefinite"></a-animation></a-entity>
+<a-entity scale="2 1 2"  geometry="primitive: dodecahedron" position="4 13 -20" material="color: greenyellow; opacity:0.9; roughness: 0.5; sphericalEnvMap: #sky;">
+<a-animation easing="linear" attribute="rotation" dur="2500" to="0 0 360" repeat="indefinite"></a-animation></a-entity>
+<a-entity scale="2 1 2" geometry="primitive: octahedron" position="2 14 -20" material="color: red; opacity:0.75; roughness: 0.75; sphericalEnvMap: #sky;">
+<a-animation easing="linear" attribute="rotation" dur="4300" to="0 0 360" repeat="indefinite"></a-animation></a-entity></a-scene>
+</div></body></html>
